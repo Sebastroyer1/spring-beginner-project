@@ -10,4 +10,9 @@ public class AppConfig {
     public HelloWorld helloWorld() {
         return new HelloWorld();
     }
+
+    @Bean
+    public User user() {
+        return new User();
+    }
 }
